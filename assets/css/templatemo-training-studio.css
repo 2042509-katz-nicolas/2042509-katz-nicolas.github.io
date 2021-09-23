@@ -740,13 +740,14 @@ subscribe
 
 /*
 --------------------------------------------
-Our Classes
+Exercices
 --------------------------------------------
 */
 
-#our-classes {
+#exercices {
   margin-bottom: 140px;
 }
+
 
 #tabs ul {
   margin: 0;
@@ -1223,7 +1224,7 @@ responsive
   #features .feature-item {
     margin-bottom: 30px;
   }
-  #our-classes .tabs-content {
+  #exercices .tabs-content {
     margin-left: 0px;
     margin-top: 30px;
   }

@@ -1,0 +1,25 @@
+#titrePage {
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+.paragraphe::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+.paragraphe {
+    text-align: justify;
+}
+
+#paragraphe1::first-letter {
+    color: purple;
+}
+
+article .paragraphe::first-letter {
+    color: green;
+}
+
+h2:hover {
+    color: blue;
+}

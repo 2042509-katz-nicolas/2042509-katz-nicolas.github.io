@@ -1,0 +1,39 @@
+#containeur {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+.gauche {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    flex-grow: 1;
+}
+.colonne{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+header {
+    background-color: greenyellow;
+    height: 20vh;
+}
+.milieu {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+article{
+    background-color: white;
+    flex-grow: 3;
+    min-height: 60vh;
+}
+aside{
+    background-color: lightgrey;
+    flex-grow: 1;
+    min-height: 60vh;
+}
+footer{
+    background-color: greenyellow;
+    height: 20vh;
+}
